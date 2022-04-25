@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template is Working</title>
+</head>
+<body>
+    Oke FINE
+    <br>
+    
+
+    <p> <b>{{name}} is from {{place}}</b>  </p>
+
+    <form action='/analyze' method='get'>
+        <textarea type="text" name="text" style='width: 720px; height: 90px;'> </textarea>
+        <br>
+        <input type="checkbox" name="removepunc">Remove Punctuations </input>
+        <br>
+        <br>
+        <input type="checkbox" name="fullcap">Full Caps </input>
+        <br>
+        <br>
+        <input type="checkbox" name="newlineremover">New Line Remover</input>
+        <br>
+        <br>
+        <input type="checkbox" name="extraspaceremover">Extra Space Remover </input>
+        <br>
+        <button type="submit">Analyze Text</button>
+    </form>
+</body>
+</html>
